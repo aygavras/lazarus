@@ -34,5 +34,10 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+			<dependency>
+			<groupId>com.lazarus</groupId>
+			<artifactId>ecommerce-dao</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 </project>

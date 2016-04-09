@@ -10,7 +10,6 @@
 	<groupId>com.lazarus</groupId>
 	<artifactId>ecommerce-web</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>ecommerce-web Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
@@ -25,6 +24,11 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
+		</dependency>
+			<dependency>
+			<groupId>com.lazarus</groupId>
+			<artifactId>ecommerce-services</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 	<build>
