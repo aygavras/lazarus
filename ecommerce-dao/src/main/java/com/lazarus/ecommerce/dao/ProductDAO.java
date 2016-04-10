@@ -14,7 +14,7 @@ import com.lazarus.domain.common.Product;
  */
 public class ProductDAO extends SqlSessionDaoSupport {
 
-	List<Product> getAllProducts(){
+	public List<Product> getAllProducts(){
 		return getSqlSession().selectList("Product.getAllProducts");
 	}
 }
