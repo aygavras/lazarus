@@ -16,10 +16,10 @@ public class JerseyService extends ResourceConfig {
 	 * Register JAX-RS application components.
 	 */
 	public JerseyService() {
-		//register(RequestContextFilter.class);
-		//register(JerseyResource.class);
-		//register(SpringSingletonResource.class);
+		// register(RequestContextFilter.class);
+		// register(JerseyResource.class);
+		// register(SpringSingletonResource.class);
 		register(ProductRequestResource.class);
-		//register(CustomExceptionMapper.class);
+		// register(CustomExceptionMapper.class);
 	}
 }

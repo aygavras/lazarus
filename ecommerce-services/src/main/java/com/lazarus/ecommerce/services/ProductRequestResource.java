@@ -20,7 +20,7 @@ import com.lazarus.domain.common.Product;
  * @author aygavras
  *
  */
-@Path("products")
+@Path("/products")
 @Component
 @Singleton
 public class ProductRequestResource {
